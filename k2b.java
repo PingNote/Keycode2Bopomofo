@@ -1,6 +1,6 @@
 class k2b{
 	public static void main (String[] args){
-		if(args.length>0) System.out.println(k2b(args[0]));
+		if(args.length>0 && args[0].length()>0) System.out.println(k2b(args[0]));
 	}
 
 	public static String k2b(String str){
