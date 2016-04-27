@@ -4,6 +4,8 @@
 
 ![Example](https://i.imgur.com/jlefriV.png)
 
+K2B Project , 別名 1qaz (ㄅㄆㄇㄈ) 加解密演算法。
+
 ***
 
 您是否在和小正太(小蘿莉)相處的過程中遭遇以下問題？
