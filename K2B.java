@@ -5,6 +5,10 @@ import java.util.Map;
 
 public class K2B {
 
+    public K2B() {
+        this.initKBMap();
+    }
+
     private void initKBMap() {
         this.kbMap = new HashMap<>();
         kbMap.put('1', 'ㄅ');
