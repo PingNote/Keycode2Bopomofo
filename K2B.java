@@ -47,6 +47,17 @@ class K2B{
         kbMap.put('7', '˙');
         kbMap.put(' ', ' ');
     }
+    public String generateK2b(String kbChars) {
+        StringBuilder sb = new StringBuilder();
+
+        kbChars.chars().forEachOrdered((val) -> {
+            char c = (char) val;
+            char bpmf = kbMap.get(c);
+            sb.append(bpmf);
+        });
+
+        return sb.toString();
+    }
     public static void main(String[] args) {
         K2B k2bGenerator = new K2B();
         if (args.length == 0) {
