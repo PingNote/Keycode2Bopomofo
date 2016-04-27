@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class K2B {
 
+    private Map<Character, Character> kbMap;
+
     public K2B() {
         this.initKBMap();
     }
