@@ -1,4 +1,9 @@
-class K2B{
+package k2b;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class K2B {
 
     private void initKBMap() {
         this.kbMap = new HashMap<>();
@@ -45,6 +50,7 @@ class K2B{
         kbMap.put('7', '˙');
         kbMap.put(' ', ' ');
     }
+
     public String generateK2b(String kbChars) {
         StringBuilder sb = new StringBuilder();
 
@@ -64,4 +70,6 @@ class K2B{
             String result = k2bGenerator.generateK2b(args[0]);
             System.out.println(result);
         }
+
+    }
 }
