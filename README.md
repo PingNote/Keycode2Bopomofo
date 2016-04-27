@@ -12,4 +12,4 @@
 * 「284ek3ek6，5k4g4gk6ak7？」
 
 
-有了 K2B Prject ，這一切都將有所不同。
+有了 K2B Project ，這一切都將有所不同。
