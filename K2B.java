@@ -62,6 +62,12 @@ public class K2B {
 
         return sb.toString();
     }
+
+    public static void usage() {
+        System.out.println("Usage: ");
+        System.out.println("\tK2B [your keyboard string]");
+    }
+
     public static void main(String[] args) {
         K2B k2bGenerator = new K2B();
         if (args.length == 0) {
