@@ -1,7 +1,5 @@
 class K2B{
 
-		return String.format("%c%s", ch, (str.length()>1) ? k2b(str.substring(1)) : "");
-	}
     private void initKBMap() {
         this.kbMap = new HashMap<>();
         kbMap.put('1', 'ㄅ');
