@@ -4,7 +4,7 @@
 
 ![Example](https://i.imgur.com/jlefriV.png)
 
-K2B Project , 別名 1qaz (ㄅㄆㄇㄈ) 加解密演算法。
+K2B Project , 別名 1qaz (ㄅㄆㄇㄈ) 加密/解密演算法。
 
 ***
 
