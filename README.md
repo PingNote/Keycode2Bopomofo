@@ -1,24 +1,28 @@
 # Keycode2Bopomofo
 
-To convert your keyboard code into bopomofo code
+### 隆重為您介紹，「K2B Project」。
 
 ![Example](https://i.imgur.com/jlefriV.png)
 
-# requirements:
-- Apache maven 3.3.9 or higher
-- JDK 1.8.0_77 or heigher
+K2B Project , 別名 1qaz (ㄅㄆㄇㄈ) 加密/解密演算法。
 
-# To compile source code
+***
 
-```bash
-$ mvn install
-```
+您是否在和小正太(小蘿莉)相處的過程中遭遇以下問題？
+* 「大葛格，這個字怎麼念？」
+* 「大葛格，這個字怎麼打？」
+* 「284ek3ek6，5k4g4gk6ak7？」
+* 不論怎麼切換、設定、重新安裝中文輸入法，甚至是重新開機，依然只打得出 1qaz 而非ㄅㄆㄇㄈ？
 
-# To use K2B
 
-```bash
-$ ./target/K2B-1.0-SNAPSHOT.jar [your keyboard code]
-```
+有了 K2B Project ，這一切都將有所不同。
 
-# License
-MIT License
+[本區段待編輯中]
+
+***
+
+### 即刻贊助 K2B Project
+
+您將可很自豪地對萌正太說：「大葛格的一部份在 K2B 裡面哦。」
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=38DWD84LH5D54)
