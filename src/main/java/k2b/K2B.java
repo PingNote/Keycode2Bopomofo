@@ -154,14 +154,17 @@ public class K2B {
             String result = k2bGenerator.generateK2b(kbString);
             System.out.println(result);
         } else {
-          String[] tmpStrings = new String[args.length-1];
-          System.arraycopy(args, 1, tmpStrings, 0, args.length-1);
-          String kbString = String.join(" ", tmpStrings);
+            String kbString = "";
             if(args[0].equals("--auto-input")) {
+                String[] tmpStrings = new String[args.length-1];
+                System.arraycopy(args, 1, tmpStrings, 0, args.length-1);
+                kbString = String.join(" ", tmpStrings);
                 k2bGenerator.autoInput(kbString);
             } else {
-
+                kbString = String.join(" ", args);
             }
+            String result = k2bGenerator.generateK2b(kbString);
+            System.out.println(result);
         }
 
     }
