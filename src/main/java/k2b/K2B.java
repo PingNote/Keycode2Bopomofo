@@ -150,7 +150,7 @@ public class K2B {
         if (args.length == 0) {
             usage();
         } else if(args.length == 1){
-            String result = k2bGenerator.generateK2b(atgs[0]);
+            String result = k2bGenerator.generateK2b(args[0]);
             System.out.println(result);
         } else {
             String kbString = "";
